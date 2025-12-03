@@ -1,0 +1,16 @@
+{
+  "name": "simple-website",
+  "version": "1.0.0",
+  "description": "Website simpel dengan HTML, CSS, dan JavaScript",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "jsdom": "^23.0.0",
+    "fast-check": "^3.15.0"
+  }
+}
